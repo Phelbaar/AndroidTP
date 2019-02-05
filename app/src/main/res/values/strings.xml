@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TesTP2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_text">Please log in</string>
+    <string name="login">Log in</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="number">0</string>
+    <string name="activity2">You are logged in !</string>
+</resources>
