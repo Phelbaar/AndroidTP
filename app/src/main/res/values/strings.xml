@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TesTP2</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_text">Please log in</string>
+    <string name="hello_text">Enter your pseudo</string>
     <string name="login">Log in</string>
     <string name="next">Next</string>
     <string name="back">Back</string>
