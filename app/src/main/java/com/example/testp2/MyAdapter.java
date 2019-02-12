@@ -41,7 +41,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private final TextView name;
         private final TextView description;
-        private Pair<String, String> currentPair;
+        private Pair<String, Integer> currentPair;
 
         public MyViewHolder(final View itemView) {
             super(itemView);
@@ -58,7 +58,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             });
         }
 
-        public void display(Pair<String, String> pair) {
+        public void display(Pair<String, Integer> pair) {
             currentPair = pair;
             name.setText(pair.first);
             description.setText(pair.second);
